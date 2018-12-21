@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  MyMusic
-//
-//  Created by perkinsung on 2018/10/19.
-//  Copyright © 2018 perkinsung. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain

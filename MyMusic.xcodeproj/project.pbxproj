@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADBB158421CC6DA80074F252 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB158321CC6DA80074F252 /* MyTableViewController.swift */; };
+		ADBB158621CC6E7A0074F252 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB158521CC6E7A0074F252 /* MyTableViewCell.swift */; };
 		BD1159BA217967DF003C6AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1159B9217967DF003C6AEB /* AppDelegate.swift */; };
 		BD1159BC217967DF003C6AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1159BB217967DF003C6AEB /* ViewController.swift */; };
 		BD1159BF217967DF003C6AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1159BD217967DF003C6AEB /* Main.storyboard */; };
 		BD1159C1217967E0003C6AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD1159C0217967E0003C6AEB /* Assets.xcassets */; };
 		BD1159C4217967E0003C6AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD1159C2217967E0003C6AEB /* LaunchScreen.storyboard */; };
+		BD1159CC21796910003C6AEB /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD1159CB2179690F003C6AEB /* music.mp3 */; };
+		BD43F1ED21798672003C01E0 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = BD43F1E721798672003C01E0 /* stop.png */; };
+		BD43F1EE21798672003C01E0 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = BD43F1E821798672003C01E0 /* music.png */; };
+		BD43F1EF21798672003C01E0 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = BD43F1E921798672003C01E0 /* pause.png */; };
+		BD43F1F021798672003C01E0 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = BD43F1EA21798672003C01E0 /* next.png */; };
+		BD43F1F121798672003C01E0 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = BD43F1EB21798672003C01E0 /* play.png */; };
+		BD43F1F221798672003C01E0 /* previous.png in Resources */ = {isa = PBXBuildFile; fileRef = BD43F1EC21798672003C01E0 /* previous.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADBB158321CC6DA80074F252 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		ADBB158521CC6E7A0074F252 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
 		BD1159B6217967DF003C6AEB /* MyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1159B9217967DF003C6AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD1159BB217967DF003C6AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +33,13 @@
 		BD1159C0217967E0003C6AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD1159C3217967E0003C6AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD1159C5217967E0003C6AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1159CB2179690F003C6AEB /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		BD43F1E721798672003C01E0 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		BD43F1E821798672003C01E0 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		BD43F1E921798672003C01E0 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		BD43F1EA21798672003C01E0 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		BD43F1EB21798672003C01E0 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		BD43F1EC21798672003C01E0 /* previous.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = previous.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +72,31 @@
 		BD1159B8217967DF003C6AEB /* MyMusic */ = {
 			isa = PBXGroup;
 			children = (
+				BD43F1E621798672003C01E0 /* images */,
+				BD1159CB2179690F003C6AEB /* music.mp3 */,
 				BD1159B9217967DF003C6AEB /* AppDelegate.swift */,
 				BD1159BB217967DF003C6AEB /* ViewController.swift */,
+				ADBB158321CC6DA80074F252 /* MyTableViewController.swift */,
 				BD1159BD217967DF003C6AEB /* Main.storyboard */,
+				ADBB158521CC6E7A0074F252 /* MyTableViewCell.swift */,
 				BD1159C0217967E0003C6AEB /* Assets.xcassets */,
 				BD1159C2217967E0003C6AEB /* LaunchScreen.storyboard */,
 				BD1159C5217967E0003C6AEB /* Info.plist */,
 			);
 			path = MyMusic;
+			sourceTree = "<group>";
+		};
+		BD43F1E621798672003C01E0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BD43F1E721798672003C01E0 /* stop.png */,
+				BD43F1E821798672003C01E0 /* music.png */,
+				BD43F1E921798672003C01E0 /* pause.png */,
+				BD43F1EA21798672003C01E0 /* next.png */,
+				BD43F1EB21798672003C01E0 /* play.png */,
+				BD43F1EC21798672003C01E0 /* previous.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +131,11 @@
 				TargetAttributes = {
 					BD1159B5217967DF003C6AEB = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,9 +162,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1159CC21796910003C6AEB /* music.mp3 in Resources */,
+				BD43F1ED21798672003C01E0 /* stop.png in Resources */,
+				BD43F1F221798672003C01E0 /* previous.png in Resources */,
+				BD43F1F121798672003C01E0 /* play.png in Resources */,
+				BD43F1F021798672003C01E0 /* next.png in Resources */,
 				BD1159C4217967E0003C6AEB /* LaunchScreen.storyboard in Resources */,
+				BD43F1EF21798672003C01E0 /* pause.png in Resources */,
 				BD1159C1217967E0003C6AEB /* Assets.xcassets in Resources */,
 				BD1159BF217967DF003C6AEB /* Main.storyboard in Resources */,
+				BD43F1EE21798672003C01E0 /* music.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +183,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD1159BC217967DF003C6AEB /* ViewController.swift in Sources */,
+				ADBB158621CC6E7A0074F252 /* MyTableViewCell.swift in Sources */,
+				ADBB158421CC6DA80074F252 /* MyTableViewController.swift in Sources */,
 				BD1159BA217967DF003C6AEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +332,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GVDL4Y27X;
 				INFOPLIST_FILE = MyMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6GVDL4Y27X;
 				INFOPLIST_FILE = MyMusic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
